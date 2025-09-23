@@ -14,8 +14,8 @@ pipeline {
         }
         stage('Deploy to Kubernetes') {
             steps {
-                bat 'kubectl apply -f D:/DevOps/week-2/deployment.yaml'
-                bat 'kubectl apply -f D:/DevOps/week-2/service.yaml'
+                bat "C:\DeVops\week12\deployment.yaml"
+                bat "C:\DeVops\week12\service.yaml"
             }
         }
         stage('Automated UI Test') {
