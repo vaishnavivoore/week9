@@ -20,9 +20,9 @@ pipeline {
         }
        stage('Automated UI Test') {
             steps {
-                bat 'C:/DeVops/week12/test_registration.py'
+                bat 'python C:/DeVops/week12/test_registration.py'
             }
         }
- 
+
     }
 }
